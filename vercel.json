@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm --filter @rapidseed/web build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
